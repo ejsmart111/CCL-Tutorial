@@ -1,16 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiOne - Minimal Landing Page Theme</title>
-    <link href="./style.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/c2afe309ea.js"></script>
 </head>
+
 <body>
-    <div class="bg-image" style="background-image: url(https://th.bing.com/th/id/R.f8e7a0fb4cb6de6794a0e1d367d0b032?rik=ER9KhI94fa85GQ&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f09%2fBurger-Photos.jpg&ehk=yPw6GMpMd1%2bm8SgwN%2bHpDP4BDkOGEhc%2b45DQHVVo%2b34%3d&risl=&pid=ImgRaw&r=0);">
+  <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MiOne</a>
+
+          <div id="navbarSupportedContent">
+            <ul class="d-flex me-auto pt-2 mb-2 mb-lg-0">
+              <li class="item">
+                <a class="link d-flex" href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <span class="m-0 ms-3 link-text">Login</span></a>
+              </li>
+              <li class="item">
+                <a class="link" href="#">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+     <section id="menu"> <!--menu section-->
+        <div class="container">
+            <div class="row gx-4 gy-3">
+                <div class="col-12 col-sm-6 col-xl-3 ">
+                    <div class="menu-item bg-white px-4 d-flex align-items-center">
+                        <img src="https://kingstudio.ro/demos/mione/assets/images/ph-mini11.jpg
+                        " > 
+                        <div class="descr">
+                            <h2 class="title">Fast Food</h2>
+                            <p>Quisque vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="menu-item bg-white px-4 d-flex align-items-center">
+                        <img src="https://kingstudio.ro/demos/mione/assets/images/ph-mini12.jpg
+                        " class="img-fluid"> 
+                        <div class="descr">
+                            <h2 class="title">Asian</h2>
+                            <p>Quisque vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="menu-item bg-white px-4 d-flex align-items-center">
+                        <img src="https://kingstudio.ro/demos/mione/assets/images/ph-mini13.jpg
+                        "> 
+                        <div class="descr">
+                            <h2 class="title">Italian</h2>
+                            <p>Quisque vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="menu-item bg-white px-4 d-flex align-items-center">
+                        <img src="https://kingstudio.ro/demos/mione/assets/images/ph-mini14.jpg
+                        "> 
+                        <div class="descr">
+                            <h2 class="title">Local</h2>
+                            <p>Quisque vitae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--end of menu section-->
+  
+  <div class="bg-image" style="background-image: url(https://th.bing.com/th/id/R.f8e7a0fb4cb6de6794a0e1d367d0b032?rik=ER9KhI94fa85GQ&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f09%2fBurger-Photos.jpg&ehk=yPw6GMpMd1%2bm8SgwN%2bHpDP4BDkOGEhc%2b45DQHVVo%2b34%3d&risl=&pid=ImgRaw&r=0);">
     <div class="container-fluid p-5">
         <div class="row p-5">
             <div class="col-lg-4 bg-white p-5">
@@ -23,6 +93,111 @@
             </div>
         </div>
     </div>
+  
+    <section class="restaurant">
+        <div class="container">
+            <h2 class="in-left">RESTAURANTS</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card card-animation">
+                        <img src="/assets/ph38.jpg" alt="burger">
+                        <div class="card-body-text text-center">
+                            <h4 class="card-title">Fast Food One</h4>
+                            <p class="card-subtitle">Fast Food</p>
+                            <p class="ratings">
+                                <i class="bi bi-star-fill "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card card-animation">
+                        <img src="/assets/ph32.jpg" alt="burger">
+                        <div class="card-body-text text-center">
+                            <h4 class="card-title">Restaurant One</h4>
+                            <p class="card-subtitle">Local Restaurant</p>
+                            <p class="ratings">
+                                <i class="bi bi-star-fill "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card card-animation ">
+                        <img src="/assets/ph31.jpg" alt="burger">
+                        <div class="card-body-text text-center">
+                            <h4 class="card-title">Restaurant Two</h4>
+                            <p class="card-subtitle">Asian Restaurant</p>
+                            <p class="ratings">
+                                <i class="bi bi-star-fill "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card card-animation">
+                        <img src="/assets/ph33.jpg" alt="burger">
+                        <div class="card-body-text text-center">
+                            <h4 class="card-title">Restaurant Three</h4>
+                            <p class="card-subtitle">Local Restaurant</p>
+                            <p class="ratings">
+                                <i class="bi bi-star-fill "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card card-animation">
+                        <img src="/assets/ph36.jpg" alt="burger">
+                        <div class="card-body-text text-center">
+                            <h4 class="card-title">Fast Food Two</h4>
+                            <p class="card-subtitle">Fast Food</p>
+                            <p class="ratings">
+                                <i class="bi bi-star-fill "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card card-animation">
+                        <img src="/assets/ph34.jpg" alt="burger">
+                        <div class="card-body-text text-center">
+                            <h4 class="card-title">Restaurant Four</h4>
+                            <p class="card-subtitle">Italian Restaurant</p>
+                            <p class="ratings">
+                                <i class="bi bi-star-fill "></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
 </html>
