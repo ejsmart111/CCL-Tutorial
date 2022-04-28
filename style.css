@@ -6,6 +6,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+  --animation-delay: 0.5s;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
 /* RESTAURANTS */
 section.lg {
   padding: 120px 0;
@@ -16,6 +27,20 @@ section.lg {
   margin: 0 0 30px;
 }
 
+div.card-body {
+  border: none;
+}
+
 .ratings i {
   color: #fdcc08 !important;
+}
+
+h2.aos-animate {
+  position: relative;
+  animation: restaurant-move 2s;
+}
+
+@keyframes restaurant-move {
+  from {left: -70px;}
+  to {left: 0px;}
 }
