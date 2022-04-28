@@ -98,9 +98,6 @@ a:hover {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  position: fixed;
-  top: 0px;
-  left: 0px;
   color: var(---grey);
   padding: 150px 0;
 }
