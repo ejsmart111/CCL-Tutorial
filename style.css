@@ -27,20 +27,28 @@ section.lg {
   margin: 0 0 30px;
 }
 
-div.card-body {
+.card-body {
   border: none;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.05);
+  padding: 28px;
+}
+
+.text-secondary-dark {
+  color: #848d96 !important;
+  font-weight: 500;
 }
 
 .ratings i {
   color: #fdcc08 !important;
 }
 
+
 h2.aos-animate {
   position: relative;
-  animation: restaurant-move 2s;
+  animation: restaurant-move 1s;
 }
 
 @keyframes restaurant-move {
-  from {left: -70px;}
+  from {left: -120px;}
   to {left: 0px;}
 }
