@@ -1,1 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* .container-fluid{
+    width: 90% !important;
+} */
+
+body{
+    background-color: #fafbfc;
+}
+.ratings {
+    color: #fdd639;
+}
+
+.restaurant{
+    padding: 120px 0px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.restaurant h2{
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 700;
+    color: #111724;
+    margin-bottom: 30px;
+}
+
+.card-body-text{
+    padding: 28px;
+}
+
+.card-title{
+    font-size: 20px;
+    color: #111724;
+    margin-bottom: 5px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.card-title:hover{
+    color: #0978f5;
+    cursor: pointer;
+}
+
+.card-subtitle{
+    margin-bottom: 10px;
+    color: #848d96;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.restaurant .card{
+        box-shadow: 0px 3px 12px rgb(0 30 60 / 3%);
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        border: none;
+        border-radius: 0.25rem;
+        margin-bottom: 2rem;
+}
+
+.card-animation {
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+}
+
+.card-animation:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    cursor: pointer;
+}
+
+.in-left {
+    animation-name: fadeInLeft;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity:0;
+        transform: translatex(-100px);
+    }
+    to {
+        opacity:1;
+        transform: translatex(0);
+    }
+}
+
