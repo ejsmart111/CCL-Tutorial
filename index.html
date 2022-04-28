@@ -1,32 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiOne - Minimal Landing Page Theme</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c2afe309ea.js"></script>
 </head>
-<body>
-    
-<main>
-    <section class="first">
-        <div class="container-first container-lg">
-            <h2 >FOOD ORDERING</h2>
-            <p>Order food & beverages from your favorite restaurants with delivery or pick-up.</p>
-            <div class="input-group mb-3 input-group-first">
-                <input type="text" class="form-control input-first" placeholder="Street Address" aria-label="Username">
-                <div class="buttons-first">
 
-                    <button class="btn btn-primary" type="submit">Delivery</button>
-                    <span>OR</span>
-                    <button class="btn btn-primary" type="submit">Pick-up</button>
-                </div>
-              </div>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MiOne</a>
+
+            <div id="navbarSupportedContent">
+                <ul class="d-flex me-auto pt-2 mb-2 mb-lg-0">
+                    <li class="item">
+                        <a class="link d-flex" href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <span
+                                class="m-0 ms-3 link-text">Login</span></a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
-</main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    </nav>
+
+    <section id="menu">
+        <!--menu section-->
+        <div class="container">
+            <div class="row gx-4 gy-3">
+                <div class="col-12 col-sm-6 col-xl-3 ">
+                    <div class="menu-item bg-white px-4 d-flex align-items-center">
+                        <img src="https://kingstudio.ro/demos/mione/assets/images/ph-mini11.jpg
+                    ">
+                        <div class="descr">
+                            <h2 class="title">Fast Food</h2>
+                            <p>Quisque vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="menu-item bg-white px-4 d-flex align-items-center">
+                        <img src="https://kingstudio.ro/demos/mione/assets/images/ph-mini12.jpg
+                    " class="img-fluid">
+                        <div class="descr">
+                            <h2 class="title">Asian</h2>
+                            <p>Quisque vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="menu-item bg-white px-4 d-flex align-items-center">
+                        <img src="https://kingstudio.ro/demos/mione/assets/images/ph-mini13.jpg
+                    ">
+                        <div class="descr">
+                            <h2 class="title">Italian</h2>
+                            <p>Quisque vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="menu-item bg-white px-4 d-flex align-items-center">
+                        <img src="https://kingstudio.ro/demos/mione/assets/images/ph-mini14.jpg
+                    ">
+                        <div class="descr">
+                            <h2 class="title">Local</h2>
+                            <p>Quisque vitae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </sction>
+        <!--end of menu section-->
+
+
+        <main>
+            <section class="first">
+                <div class="container-first container-lg">
+                    <h2>FOOD ORDERING</h2>
+                    <p>Order food & beverages from your favorite restaurants with delivery or pick-up.</p>
+                    <div class="input-group mb-3 input-group-first">
+                        <input type="text" class="form-control input-first" placeholder="Street Address"
+                            aria-label="Username">
+                        <div class="buttons-first">
+
+                            <button class="btn btn-primary" type="submit">Delivery</button>
+                            <span>OR</span>
+                            <button class="btn btn-primary" type="submit">Pick-up</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+
 </html>
