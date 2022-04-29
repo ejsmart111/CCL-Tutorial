@@ -114,8 +114,8 @@ a:hover {
 }
 
 .restaurant h2 {
-  font-size: 56px;
-  line-height: 67px;
+  font-size: 34px;
+  line-height: 41px;
   font-weight: 700;
   color: #111724;
   margin-bottom: 30px;
@@ -305,5 +305,11 @@ a:hover {
   }
   .input-first{
       width: 40% !important;
+  }
+
+  .restaurant h2{
+    font-size: 56px;  
+    line-height: 67px;
+
   }
 }
