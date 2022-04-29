@@ -59,8 +59,7 @@ body {
     width: 90% !important
 }
 
-.navbar{
-    background-color: #fafbfc;
+nav.navbar{
     box-sizing: border-box;
     height: 70px;
 }
@@ -200,16 +199,17 @@ a:hover {
 
 .first {
   width: 100%;
-background-image: url("https://kingstudio.ro/demos/mione/assets/images/ph-bg7.jpg");
-background-position: 50% 50%;
-background-size: cover;
-background-repeat: no-repeat;
-color: var(---grey);
-padding: 150px 0;
+  background-image: url("https://kingstudio.ro/demos/mione/assets/images/ph-bg7.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(---grey);
+  padding: 0;
 }
 .container-first{
   width:95%;
   margin: 0 auto;
+  padding: 150px 0;
 }
 .container-first h2{
   color:var(---black);
@@ -276,6 +276,9 @@ padding: 150px 0;
 @media only screen and (min-width: 768px){
 
   .first{
+      padding: 0;
+  }
+  .container-first{
       padding: 170px 0;
   }
   .buttons-first,.input-first{
@@ -289,13 +292,16 @@ padding: 150px 0;
 }
 @media only screen and (min-width: 992px){
   .first{
-      padding: 220px 0;
+      padding: 0;
   }
   .input-group-first{
       max-width:75% ;
   }
   .container-first p{
       width: 30%
+  }
+  .container-first {
+    padding: 220px 0;
   }
   .input-first{
       width: 40% !important;
