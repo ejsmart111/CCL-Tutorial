@@ -29,17 +29,26 @@ section.lg {
 
 .card-body {
   border: none;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.05);
   padding: 28px;
 }
 
 .text-secondary-dark {
-  color: #848d96 !important;
+  color: #848d96;
   font-weight: 500;
 }
 
 .ratings i {
-  color: #fdcc08 !important;
+  color: #fdcc08;
+}
+
+.card {  
+  transition: transform .3s
+}
+
+.card:hover {
+  color: #0978F5;
+  transform: translateY(-2%)
 }
 
 
