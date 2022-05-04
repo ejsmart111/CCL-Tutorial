@@ -192,6 +192,18 @@ a:hover {
 .head {
   font-size:54px;
 }
+
+.section-title {
+  font-size: 60px;
+}
+
+.bg-image {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.525), rgba(255, 255, 255, 0.584)), url(https://th.bing.com/th/id/R.f8e7a0fb4cb6de6794a0e1d367d0b032?rik=ER9KhI94fa85GQ&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f09%2fBurger-Photos.jpg&ehk=yPw6GMpMd1%2bm8SgwN%2bHpDP4BDkOGEhc%2b45DQHVVo%2b34%3d&risl=&pid=ImgRaw&r=0);
+  display: flex;
+  align-items: center;
+  height: 800px;
+}
+
 .det-3 {
   font-size:16px;
   color: #797d85;
