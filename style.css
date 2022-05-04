@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .position-fixed {
-    font-size: 25px;
+    font-size: 15px;
     right: 50px;
     bottom: 50px;
     position: fixed;
@@ -11,4 +13,369 @@
   justify-content: center;
   height: 60px; 
   width: 60px
+}
+
+:root{
+  ---grey:#797d85;
+  ---black:#111724 ;
+}
+
+body {
+  background-color: #fafbfc;
+}
+
+.ratings {
+  color: #fdd639;
+}
+
+
+*{
+    box-sizing:border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+#menu{
+    background-color: #fafbfc;
+    padding:80px 0;
+}
+
+.menu-item{
+    border-radius:5px;
+    box-shadow: 0px 2px 15px -3px rgba(54, 54, 54, 0.094);
+    padding-top:15px !important;
+    padding-bottom: 15px !important;
+}
+
+.menu-item img {
+    max-width: 70px;
+    border-radius: 50%;
+}
+
+.descr{
+    padding-top:15px;
+    margin-left:15px;
+}
+
+.title{
+    color:#111724;
+    font-size:20px;
+    line-height:15px;
+    font-weight:500;
+}
+
+.menu-item p{
+    color:#212529;
+    font-size:12px;
+    font-weight: 300;
+}
+
+
+.container-fluid {
+    width: 90% !important
+}
+
+nav.navbar{
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.navbar-brand {
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #8181ff;
+}
+
+.d-flex {
+    list-style: none;
+}
+
+.link-text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item {
+    padding: 0 10px;
+}
+
+.item:nth-of-type(2) {
+    border-left: 1px solid #b8b8b8;
+}
+
+.fa {
+    font-size: 25px !important;
+}
+
+
+@media (min-width: 480px) {
+    .item {
+        padding: 0 40px;
+    }
+}
+
+.restaurant {
+  padding: 120px 0px;
+  font-family: "Barlow", sans-serif;
+}
+
+.restaurant h2 {
+  font-size: 34px;
+  line-height: 41px;
+  font-weight: 700;
+  color: #111724;
+  margin-bottom: 30px;
+}
+
+.card-body-text {
+  padding: 28px;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #111724;
+  margin-bottom: 5px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.card-title:hover {
+  color: #0978f5;
+  cursor: pointer;
+}
+
+.card-subtitle {
+  margin-bottom: 10px;
+  color: #848d96;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.restaurant .card {
+  box-shadow: 0px 3px 12px rgb(0 30 60 / 3%);
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+.card-animation {
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform-origin: bottom;
+}
+
+.card-animation:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  cursor: pointer;
+}
+
+.in-left {
+  animation-name: fadeInLeft;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+#download-section{
+  background-image:url(./asset/ph-bg9.jpeg)
+}
+.body{
+  padding:300px 0;
+ 
+}
+
+.cont {
+  border: 2px solid white;
+  background-color: #ffffff;
+}
+
+.head {
+  font-size:54px;
+}
+
+.section-title {
+  font-size: 60px;
+}
+
+.bg-image {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.525), rgba(255, 255, 255, 0.584)), url(https://th.bing.com/th/id/R.f8e7a0fb4cb6de6794a0e1d367d0b032?rik=ER9KhI94fa85GQ&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f09%2fBurger-Photos.jpg&ehk=yPw6GMpMd1%2bm8SgwN%2bHpDP4BDkOGEhc%2b45DQHVVo%2b34%3d&risl=&pid=ImgRaw&r=0);
+  display: flex;
+  align-items: center;
+  height: 800px;
+}
+
+.det-3 {
+  font-size:16px;
+  color: #797d85;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.det-4{
+  font-size:16px;
+  color: #797d85;
+}
+.bi-apple{
+  margin-top: -7px;
+  margin-right: 10px;
+}
+.google{
+  margin-top: -4px;
+  margin-right: 5px;
+}
+.btn{
+  width:180px !important;
+  height: 55px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+.first {
+  width: 100%;
+  background-image: url("https://kingstudio.ro/demos/mione/assets/images/ph-bg7.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(---grey);
+  padding: 0;
+}
+.container-first{
+  width:95%;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+.container-first h2{
+  color:var(---black);
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+.container-first p{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.container-first .input-group-first{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-left: 0px !important;
+}
+.input-group-first button{
+  width: 100%;
+  padding: 12px 32px;
+  margin: 5px 0px 0px 0px;
+}
+.input-first{
+  border-radius: 5px !important;
+  padding: 12px 12px;
+  width: 100% !important;
+}
+.buttons-first{
+  width: 100%;
+}
+.buttons-first span{
+  display: none;
+  margin: 0px 10px;
+}
+
+
+@media (min-width: 480px) {
+  .item {
+      padding: 0 40px;
+  }
+}
+@media only screen and (min-width: 576px){
+  .buttons-first{
+      display: flex;
+      align-items: center;
+      width: max-content !important;
+
+  }
+  .buttons-first span{
+      display: block;
+  }
+  .input-group-first button{
+      width: max-content !important;
+  }
+
+}
+
+@media only screen and (min-width: 768px){
+
+  .first{
+      padding: 0;
+  }
+  .container-first{
+      padding: 170px 0;
+  }
+  .buttons-first,.input-first{
+      padding: 12px 12px;
+  }
+  .input-group-first button{
+      width: 100%;
+      padding: 12px 32px;
+      margin: 0px 0px 0px 0px;
+  }
+}
+@media only screen and (min-width: 992px){
+  .first{
+      padding: 0;
+  }
+  .input-group-first{
+      max-width:75% ;
+  }
+  .container-first p{
+      width: 30%
+  }
+  .container-first {
+    padding: 220px 0;
+  }
+  .input-first{
+      width: 40% !important;
+  }
+
+  .restaurant h2{
+    font-size: 56px;  
+    line-height: 67px;
+
+  }
 }
