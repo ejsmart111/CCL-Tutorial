@@ -116,6 +116,18 @@ a:hover {
     font-size: 25px !important;
 }
 
+/* FOOTER */
+.social-icon{
+  height: 14px;
+}
+
+.team-members-social{
+  background-color: transparent;
+  border: hidden;
+  height: 40px;
+  width: 40px;
+}
+/* FOOTER */
 
 @media (min-width: 480px) {
     .item {
